@@ -1,1 +1,6 @@
-# software-engineering
+### Software engineering  
+
+--- 
+  
+
+*  LABRAB2 - lodash
