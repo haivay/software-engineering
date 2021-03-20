@@ -3,4 +3,4 @@
 --- 
   
 
-*  LABRAB2 - lodash
+*  labrab1 - arrays
