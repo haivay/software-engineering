@@ -1,4 +1,3 @@
-const { filter } = require('lodash');
 const _ = require('lodash');
 const ut = require('./ut01');
 
