@@ -1,6 +1,17 @@
 [Задания:](https://github.com/permCoding/se-21/tree/main/LABRAB/LABRAB02)
 ---
-1. [task01](https://github.com/permCoding/se-21/tree/main/LABRAB/LABRAB02#task01)
-2. [task02](https://github.com/permCoding/se-21/tree/main/LABRAB/LABRAB02#task02)
-3. 
-  
+1. task1
+Из массива объектов достать только названия цветов.  
+Выбрать только короткие (с длиной слова менее 6-ти символов) и отсортировать эти названия по алфавиту по возрастанию.  
+Результат вывести на экран.  
+
+Пример итогового вывода:  
+
+```js
+[
+  'aqua',  'azure', 'beige', 'black',
+  'blue',  ...  
+]
+```
+
+---  
