@@ -1,7 +1,7 @@
-### Software engineering  
+## Software engineering  
 
 --- 
-## Хайрутдинов Кирилл Михайлович ПИб-31  
+### Хайрутдинов Кирилл Михайлович ПИб-31  
 
 *  [labrab1](https://github.com/haivay/software-engineering/tree/main/labrab01) - arrays from stepik (9/9)   - *done*  
 *  [labrab2](https://github.com/haivay/software-engineering/tree/main/labrab02) - lodash part 1 (5/5)        - *done*
