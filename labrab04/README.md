@@ -6,6 +6,7 @@
 Код программы по добавлению индексов я вынес в отдельные файлы и загрузил с именами "task6_index.js" и "task8_index.js"
 
 ### task6  
+
 Требуется вывести на экран все записи с именем 'laura abc'  
 Ниже представлены скриншоты с временем выполнения запросов с индексацией по полю `name` и без неё соответственно:  
 ![Screenshot_1](https://user-images.githubusercontent.com/79259641/119236668-2953c400-bb52-11eb-89a0-155d7d93a0e9.jpg)  
@@ -13,6 +14,7 @@
 ---  
 
 ### task8  
+
 Требуется вывести на экран все записи замеров для клиента с самым высоким `count`, отсортировав по дате замера по возрастанию  
 ![Screenshot_2](https://user-images.githubusercontent.com/79259641/119236701-4ab4b000-bb52-11eb-84ad-c3efaa99ac39.jpg)  
 ![Screenshot_4](https://user-images.githubusercontent.com/79259641/119236819-e2b29980-bb52-11eb-951a-37dbfc423acc.jpg)  
