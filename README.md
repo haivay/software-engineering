@@ -1,6 +1,6 @@
 ## Software engineering  
 
---- 
+
 ### Хайрутдинов Кирилл Михайлович ПИб-31  
 
 *  [labrab1](https://github.com/haivay/software-engineering/tree/main/labrab01) - arrays from stepik (9/9)   - *done*  
