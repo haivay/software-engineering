@@ -10,9 +10,9 @@
 Требуется вывести на экран все записи с именем 'laura abc'  
 Ниже представлены скриншоты с временем выполнения запросов с индексацией по полю `name` и без неё соответственно:  
 
-![Screenshot_1](https://user-images.githubusercontent.com/79259641/119236668-2953c400-bb52-11eb-89a0-155d7d93a0e9.jpg)  
+![Screenshot_1](https://user-images.githubusercontent.com/79259641/119237223-2d351580-bb55-11eb-95c3-746ed6ac7081.jpg)  
 --- 
-![Screenshot_3](https://user-images.githubusercontent.com/79259641/119236812-ddede580-bb52-11eb-83b4-faa429a9062e.jpg)  
+![Screenshot_3](https://user-images.githubusercontent.com/79259641/119237228-31f9c980-bb55-11eb-8384-06683f026c45.jpg)  
 ---  
 
 ### task8  
