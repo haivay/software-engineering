@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(39, 39, 39); /* цвет фона */
+    font-family: Arial, Helvetica, sans-serif; /* шрифты */
+    color:rgb(255, 255, 255);
+}
+table {
+    margin-top: 20px;
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    width: 50%; /* Ширина таблицы */
+}
+
+th, td {
+    /*border-top: 1px solid rgba(124, 109, 109, 0); /* Параметры рамки */
+    text-align: center; /* Выравнивание по центру */
+    padding: 4px; /* Поля вокруг текста */
+}
+th {
+    
+    background: rgb(105, 105, 105); /* Цвет фона ячейки */
+    height: 32px; /* Высота ячеек */
+}
+td {
+    border-top: 1px solid rgb(150, 150, 150);
+    background: rgb(128, 128, 128); /* Цвет фона ячейки */
+}
+table tr th a{
+    font-size: 8pt;
+}
+td.editor {
+    background: rrgb(128, 128, 128); /* Цвет фона ячейки */
+    border-right: 1px solid rgb(150, 150, 150)
+}
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.upper {
+    background-color: #fff;
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+.btn {
+    font-style: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #585858;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-size: 100%;
+}

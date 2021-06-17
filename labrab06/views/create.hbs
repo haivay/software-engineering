@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Добавить мангу</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <style>.field{width:200px;}</style>
+</head>
+<body>
+    <h1>Добавить мангу</h1>
+    <form method="POST">        
+        <label>Название</label><br>
+        <input name="name" class="field" /><br><br>
+
+        <label>Автор</label><br>
+        <input name="author" class="field" /><br><br>
+        
+        <label>Год выпуска</label><br>
+        <input name="releaseYear" type="number" class="field" min="1900" max="2050" /><br><br>
+
+        <label>Статус</label><br>
+        <input name="status" class="field" /><br><br>
+        
+        <label>Рейтинг</label><br>
+        <input name="rating" type="number" min="0" max="10" step="0.01" class="field" /><br><br>
+
+        <input type="submit" value="Сохранить" />
+    </form>
+    <br>
+    <a href="/">На главную</a>
+</body>
+<html>

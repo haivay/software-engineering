@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MySQL</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+<body>
+    <center>
+    <h3>СПИСОК МАНГИ</h1>
+    <br>
+    <a href="/create" class="btn">Добавить мангу</a>
+    {{!-- <a href="/reset" class="btn">Reset</a> --}}
+    <table>
+        <tr>
+            <th>Редактор</th>
+            <th>Название&nbsp;<a href="/sort/name.ASC">▲</a><a href="/sort/name.DESC">▼</a></th>
+            <th>Автор</th>
+            <th>Год выпуска&nbsp;<a href="/sort/releaseYear.ASC">▲</a><a href="/sort/releaseYear.DESC">▼</a></th>
+            <th>Статус</th>
+            <th>Рейтинг&nbsp;<a href="/sort/rating.ASC">▲</a><a href="/sort/rating.DESC">▼</a></th>
+        </tr>
+        {{#each manga}}
+            <tr>
+                <td width=180 class="editor">
+                    <form action="/edit/{{this.id}}" method="GET" style="display:inline;">
+                        <input type="submit" value="Изменить" />
+                    </form>
+                    <form action="/delete/{{this.id}}" method="POST" style="display:inline;">
+                        <input type="submit" value="Удалить" />
+                    </form>
+                </td>
+                <td>{{this.name}}</td>
+                <td>{{this.author}}</td>
+                <td>{{this.releaseYear}}</td>
+                <td>{{this.status}}</td>
+                <td>{{this.rating}}</td>
+            </tr>
+        {{/each}}
+    </table>
+    </center>
+</body>
+<html>
