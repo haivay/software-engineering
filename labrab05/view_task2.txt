@@ -1,0 +1,7 @@
+CREATE VIEW view_task2 AS 
+SELECT `students`.`id`, `students`.`lastName`
+FROM `students`
+JOIN `studygroups` ON `students`.`keyGroup` = `studygroups`.`idGr`
+JOIN `curators` ON `studygroups`.`keyCur` = `curators`.`idCur`
+WHERE `curators`.`nameCur` = 'Дуров'
+ORDER BY `students`.`lastName` ASC

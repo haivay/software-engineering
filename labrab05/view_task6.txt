@@ -1,0 +1,7 @@
+CREATE VIEW view_task6 AS
+SELECT `students`.`lastName`, ROUND(AVG(`marks`.`mark`), 2) AS 'avg_mark'
+FROM `students`
+JOIN `marks` ON `students`.`id` = `marks`.`keyStudent`
+GROUP BY `students`.`lastName` 
+HAVING `avg_mark`<4.00
+ORDER BY `avg_mark` DESC

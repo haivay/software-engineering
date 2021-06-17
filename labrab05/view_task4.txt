@@ -1,0 +1,8 @@
+CREATE VIEW view_task4 AS 
+SELECT `students`.`id`, `students`.`lastName`, `marks`.`mark`
+FROM `students`
+JOIN `studygroups` ON `students`.`keyGroup` = `studygroups`.`idGr`
+JOIN `marks` ON `students`.`id` = `marks`.`keyStudent`
+JOIN `edusubject` ON `marks`.`keySubject` = `edusubject`.`id`
+WHERE `edusubject`.`nameSubject` = 'ООП' AND `studygroups`.`nameGroup` = 'ПИнб-2'
+ORDER BY `students`.`lastName` ASC

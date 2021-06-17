@@ -1,0 +1,5 @@
+CREATE VIEW view_task1 AS
+SELECT `studygroups`.`nameGroup`, `students`.`id`, CONCAT_WS(' ', `students`.`lastName`, `students`.`firstName`) AS 'fullName'
+FROM `students`
+JOIN `studygroups` ON `students`.`keyGroup` = `studygroups`.`idGr`
+ORDER BY `studygroups`.`nameGroup`, `fullName` ASC

@@ -1,0 +1,7 @@
+CREATE VIEW view_task3 AS 
+SELECT `students`.`id`, 
+CONCAT_WS(' ',`students`.`lastName`,`students`.`firstName`) AS `fullName`
+FROM `students`
+JOIN `marks` ON `students`.`id` = `marks`.`keyStudent`
+JOIN `edusubject` ON `marks`.`keySubject` = `edusubject`.`id`
+WHERE `edusubject`.`nameSubject` = 'ООП' AND `marks`.`mark` = '5'
